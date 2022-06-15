@@ -1,0 +1,35 @@
+.game-container{
+    margin: auto;
+    margin-top: 20vh;
+    width: 50vw;
+    height: 50vh;
+    background-color: aliceblue;
+}
+.board-container{
+    background-color: azure;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 0;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+.grid-item{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+.grid1, .grid4, .grid7{
+    border-left: none;
+}
+.grid1, .grid2, .grid3{
+    border-top: none;
+}
+.grid3, .grid6, .grid9{
+    border-right: none;
+}
+.grid7, .grid8, .grid9{
+    border-bottom: none;
+}
